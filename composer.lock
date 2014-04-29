@@ -1,0 +1,153 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
+    ],
+    "hash": "93018b6ffcc58102d7f106f31aca1a6d",
+    "packages": [
+        {
+            "name": "clippings/atlas",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/clippings/atlas.git",
+                "reference": "e3ef800752ebefb4a53aa3039e0500230a20a1db"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/clippings/atlas/zipball/e3ef800752ebefb4a53aa3039e0500230a20a1db",
+                "reference": "e3ef800752ebefb4a53aa3039e0500230a20a1db",
+                "shasum": ""
+            },
+            "require": {
+                "ext-pdo": "*",
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "clippings/env-backup": "~0.2.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "CL\\Atlas\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Ivan Kerin",
+                    "email": "ikerin@gmail.com",
+                    "homepage": "http://www.openbuildings.com",
+                    "role": "Author"
+                },
+                {
+                    "name": "Haralan Dobrev",
+                    "email": "hkdobrev@gmail.com",
+                    "homepage": "http://hkdobrev.blogspot.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "SQL Builder for PDO",
+            "time": "2014-04-25 10:45:35"
+        },
+        {
+            "name": "clippings/carpo",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/clippings/carpo.git",
+                "reference": "f466f9db5de58fa68380ed62c32204f0561c4658"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/clippings/carpo/zipball/f466f9db5de58fa68380ed62c32204f0561c4658",
+                "reference": "f466f9db5de58fa68380ed62c32204f0561c4658",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "CL\\Carpo\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Ivan Kerin",
+                    "email": "ikerin@gmail.com",
+                    "homepage": "http://www.openbuildings.com",
+                    "role": "Author"
+                }
+            ],
+            "description": "Object validaiton library",
+            "time": "2014-03-27 13:25:00"
+        },
+        {
+            "name": "clippings/luna",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/clippings/luna.git",
+                "reference": "10290d75fed514ab9d13177941a32a592b3d2d5b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/clippings/luna/zipball/10290d75fed514ab9d13177941a32a592b3d2d5b",
+                "reference": "10290d75fed514ab9d13177941a32a592b3d2d5b",
+                "shasum": ""
+            },
+            "require": {
+                "clippings/atlas": "dev-master",
+                "clippings/carpo": "dev-master",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "clippings/env-backup": "0.2.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "CL\\Luna\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Ivan Kerin",
+                    "email": "ikerin@gmail.com",
+                    "homepage": "http://www.openbuildings.com",
+                    "role": "Author"
+                }
+            ],
+            "description": "Lightweight ORM",
+            "time": "2014-04-25 11:26:37"
+        }
+    ],
+    "packages-dev": [
+
+    ],
+    "aliases": [
+
+    ],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "clippings/carpo": 20,
+        "clippings/atlas": 20,
+        "clippings/luna": 20
+    },
+    "platform": [
+
+    ],
+    "platform-dev": [
+
+    ]
+}

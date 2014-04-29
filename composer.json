@@ -1,0 +1,20 @@
+{
+    "name": "clippings/luna-closuretable",
+    "description": "Nesting via \"closuretable\" for Luna ORM",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Ivan Kerin",
+            "email": "ikerin@gmail.com",
+            "role": "Author"
+        }
+    ],
+    "require": {
+        "clippings/carpo" : "dev-master",
+        "clippings/atlas" : "dev-master",
+        "clippings/luna" : "dev-master"
+    },
+    "autoload": {
+        "psr-4": {"CL\\LunaClosuretable\\": "src/"}
+    }
+}
